@@ -26,8 +26,8 @@ export function constructMetadata({
       "JavaScript",
     ],
     // add url
-    authors: { name: "Ricardo Esteves", url: "" },
-    creator: "Ricardo Esteves",
+    authors: { name: "Anderson Leite", url: "" },
+    creator: "Anderson Leite",
     // openGraph: {
     //   title,
     //   description,
