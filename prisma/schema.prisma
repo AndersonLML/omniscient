@@ -3,12 +3,12 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "mongodb"
   url      = env("DATABASE_URL")
 }
 
 model UserApiLimit {
-  id         String   @id @default(cuid())
+  id         String   @id @default(cuid()) @map("_id")
   userId     String   @unique
   count      Int      @default(0)
   createdAt  DateTime @default(now())
@@ -16,7 +16,7 @@ model UserApiLimit {
 }
 
 model UserSubscription {
-  id                     String    @id     @default(cuid())
+  id                     String    @id     @default(cuid()) @map("_id")
   userId                 String    @unique
   stripeCustomerId       String?   @unique @map(name: "stripe_customer_id")
   stripeSubscriptionId   String?   @unique @map(name: "stripe_subscription_id")
