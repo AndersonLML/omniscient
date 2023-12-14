@@ -41,12 +41,12 @@ export async function GET() {
       line_items: [
         {
           price_data: {
-            currency: "EUR",
+            currency: "BRL",
             product_data: {
               name: "Omniscient Pro",
-              description: "Unlimited AI Generations",
+              description: "Geração Ilimitada",
             },
-            unit_amount: 2000,
+            unit_amount: 299,
             recurring: {
               interval: "month",
             },
