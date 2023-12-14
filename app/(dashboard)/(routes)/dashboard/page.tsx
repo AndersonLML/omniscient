@@ -13,10 +13,10 @@ export default function DashboardPage() {
     <div>
       <div className="mb-8 space-y-4">
         <h2 className="text-2xl md:text-4xl font-bold text-center">
-          Omniscient, unleash Tomorrow&apos;s Potential, Today.
+        Onisciente, libere o amanhã&apos; com Potencial, hoje.
         </h2>
         <p className="text-muted-foreground font-light text-sm md:text-lg text-center">
-          Where Insight Meets Innovation. Empower Your Future with Omniscient.
+        Onde o insight encontra a inovação. Capacite seu futuro com Onisciente.
         </p>
       </div>
       <div className="px-4 md:px-20 lg:px-32 space-y-4">

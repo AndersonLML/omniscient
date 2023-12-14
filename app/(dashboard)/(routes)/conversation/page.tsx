@@ -67,8 +67,8 @@ export default function ConversationPage() {
   return (
     <div>
       <Heading
-        title="Conversation"
-        description="Our most advanced conversation model."
+        title="Questione"
+        description="Nosso modelo GPT 3.5 Turbo"
         icon={MessageSquare}
         iconColor="text-violet-500"
         bgColor="bg-violet-500/10"
@@ -100,7 +100,7 @@ export default function ConversationPage() {
                       <Input
                         className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                         disabled={isLoading}
-                        placeholder="how do I calculate the speed of light?"
+                        placeholder="Quantos habitantes existem no planeta terra?"
                         {...field}
                       />
                     </FormControl>
@@ -113,7 +113,7 @@ export default function ConversationPage() {
                 disabled={isLoading}
                 size="icon"
               >
-                Generate
+                Questionar
               </Button>
             </form>
           </Form>

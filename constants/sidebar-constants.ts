@@ -16,17 +16,17 @@ export const routes = [
     color: "text-sky-500",
   },
   {
-    label: "Conversation",
+    label: "Questione",
     icon: MessageSquare,
     href: "/conversation",
     color: "text-violet-500",
   },
-  {
-    label: "Image Generation",
-    icon: ImageIcon,
-    color: "text-pink-700",
-    href: "/image",
-  },
+  // {
+  //   label: "Image Generation",
+  //   icon: ImageIcon,
+  //   color: "text-pink-700",
+  //   href: "/image",
+  // },
   // {
   //   label: "Video Generation",
   //   icon: VideoIcon,
@@ -45,9 +45,9 @@ export const routes = [
   //   color: "text-green-600",
   //   href: "/code",
   // },
-  // {
-  //   label: "Settings",
-  //   icon: Settings,
-  //   href: "/settings",
-  // },
+  {
+    label: "Settings",
+    icon: Settings,
+    href: "/settings",
+  },
 ];
