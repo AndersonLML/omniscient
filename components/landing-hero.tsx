@@ -37,7 +37,7 @@ export const LandingHero = () => {
             variant="premium"
             className="md:text-lg p-4 md:p-6 rounded-full font-semibold"
           >
-            Start Generating For Free
+            Iniciar Agora Grátis
           </Button>
         </Link>
       </div>
