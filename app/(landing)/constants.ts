@@ -1,10 +1,10 @@
 export const testimonials = [
-  // {
-  //   name: "Joel",
-  //   avatar: "J",
-  //   title: "Software Engineer",
-  //   description: "This is the best application I've ever used!",
-  // },
+  {
+    name: "Em Breve",
+    avatar: "x",
+    title: "Em Breve",
+    description: "Em Breve",
+  },
   // {
   //   name: "Antonio",
   //   avatar: "A",
